@@ -1,4 +1,4 @@
-from lines_search import line
+from Algoritms import line
 a = "d hjs hdjshdj ddd"
-b = "ddd d hjs"
-line(a, b)
+b = ["ddd", "d", "hjs"]
+print(line(a, b))
