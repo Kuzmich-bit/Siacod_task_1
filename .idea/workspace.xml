@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="f">
+    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="Исправлена ошибка в бинарном знак перепутал &gt;.&#10;Hash метод добавлен.">
       <change beforePath="$PROJECT_DIR$/src/Algoritms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generator_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/generator_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generator_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_files.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
     "Python.Algoritms.executor": "Run",
     "Python.binary.executor": "Run",
     "Python.generator_text.executor": "Run",
+    "Python.test_files.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -116,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789217063200</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Исправлена ошибка в бинарном знак перепутал &gt;.&#10;Hash метод добавлен.">
+      <option name="closed" value="true" />
+      <created>1789218476431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789218476431</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,6 +135,7 @@
     <MESSAGE value="3 test commit" />
     <MESSAGE value="Всё в один файл" />
     <MESSAGE value="f" />
-    <option name="LAST_COMMIT_MESSAGE" value="f" />
+    <MESSAGE value="Исправлена ошибка в бинарном знак перепутал &gt;.&#10;Hash метод добавлен." />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлена ошибка в бинарном знак перепутал &gt;.&#10;Hash метод добавлен." />
   </component>
 </project>

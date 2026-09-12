@@ -1,11 +1,12 @@
-
+import re
 def line(base_text, base_stop_word):
     clear_text = []
     base_text_list = base_text.split()
+    #for word in re.findall(r'\w+', base_text): подушка безопасности
     for word in base_text_list:
         if word not in base_stop_word:
             clear_text.append(word)
-    return clear_text
+    return " ".join(clear_text)
 def binary(base_text, base_stop_word):
     clear_text = []
     base_stop_word_sorted = sorted(base_stop_word)
@@ -26,11 +27,11 @@ def binary(base_text, base_stop_word):
     for word in base_text_list:
         if not if_stop_word(word):
             clear_text.append(word)
-    return clear_text
+    return " ".join(clear_text)
 def hash_set(base_text, base_stop_word):
     clear_text = []
     set_stop_word = set(base_stop_word)
     for word in base_text.split():
         if word not in set_stop_word:
             clear_text.append(word)
-    return clear_text
+    return " ".join(clear_text)
