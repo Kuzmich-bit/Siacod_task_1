@@ -17,16 +17,20 @@ def binary(base_text, base_stop_word):
             middle = (low + high) // 2
             if word == base_stop_word_sorted[middle]:
                 return True
-            elif word < base_stop_word_sorted[middle]:
+            elif word > base_stop_word_sorted[middle]:
                 low = middle + 1
-            else:
+            elif word < base_stop_word_sorted[middle]:
                 high = middle - 1
         return False
-
-    for word in base_text.split:
+    base_text_list = base_text.split()
+    for word in base_text_list:
         if not if_stop_word(word):
             clear_text.append(word)
     return clear_text
-def hash(base_text, base_stop_word):
+def hash_set(base_text, base_stop_word):
     clear_text = []
+    set_stop_word = set(base_stop_word)
+    for word in base_text.split():
+        if word not in set_stop_word:
+            clear_text.append(word)
     return clear_text
