@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algoritms.py" afterDir="false" />
+    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="Всё в один файл">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generator_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/generator_text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lines_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +98,22 @@
       <option name="project" value="LOCAL" />
       <updated>1788972649080</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Всё в один файл">
+      <option name="closed" value="true" />
+      <created>1789045821138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789045821138</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test push and start code" />
     <MESSAGE value="2 test" />
     <MESSAGE value="3 test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 test commit" />
+    <MESSAGE value="Всё в один файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="Всё в один файл" />
   </component>
 </project>
