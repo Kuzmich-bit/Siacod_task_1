@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="Исправлена ошибка в бинарном знак перепутал &gt;.&#10;Hash метод добавлен.">
+    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="Добавлены тесты и вывод строкой">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algoritms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generator_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmark.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_files.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +49,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Algoritms.executor": "Run",
+    "Python.benchmark.executor": "Run",
     "Python.binary.executor": "Run",
     "Python.generator_text.executor": "Run",
     "Python.test_files.executor": "Run",
@@ -126,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789218476431</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавлены тесты и вывод строкой">
+      <option name="closed" value="true" />
+      <created>1789221534951</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789221534951</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +146,7 @@
     <MESSAGE value="Всё в один файл" />
     <MESSAGE value="f" />
     <MESSAGE value="Исправлена ошибка в бинарном знак перепутал &gt;.&#10;Hash метод добавлен." />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлена ошибка в бинарном знак перепутал &gt;.&#10;Hash метод добавлен." />
+    <MESSAGE value="Добавлены тесты и вывод строкой" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены тесты и вывод строкой" />
   </component>
 </project>

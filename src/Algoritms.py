@@ -35,3 +35,24 @@ def hash_set(base_text, base_stop_word):
         if word not in set_stop_word:
             clear_text.append(word)
     return " ".join(clear_text)
+def binary_fast(base_text, base_stop_word):
+    clear_text = []
+    base_stop_word_sorted = sorted(base_stop_word)
+    base_text_list = base_text.split()
+
+    for word in base_text_list:
+        flag = True
+        low = 0
+        high = len(base_stop_word_sorted) - 1
+        while low <= high:
+            middle = (low + high) // 2
+            if word == base_stop_word_sorted[middle]:
+                flag = False
+                break
+            elif word > base_stop_word_sorted[middle]:
+                low = middle + 1
+            elif word < base_stop_word_sorted[middle]:
+                high = middle - 1
+        if flag:
+            clear_text.append(word)
+    return " ".join(clear_text)

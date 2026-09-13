@@ -1,12 +1,12 @@
-from Algoritms import line, binary, hash_set
-
+from Algoritms import line, binary, hash_set, binary_fast
 
 def run_test(test_name, text, stops, expected):
     res1 = line(text, stops)
     res2 = binary(text, stops)
     res3 = hash_set(text, stops)
+    res4 = binary_fast(text, stops)
 
-    assert res1 == res2 == res3, f"Результаты разных методов не совпадают!\nЛинейный: {res1}\nБинарный: {res2}\nМножество: {res3}"
+    assert res1 == res2 == res3 == res4, f"Результаты разных методов не совпадают!\nЛинейный: {res1}\nБинарный: {res2}\nМножество: {res3}"
 
     assert res1 == expected, f"Тест провален!\nОжидалось: {expected}\nПолучено: {res1}"
 
