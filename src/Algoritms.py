@@ -1,5 +1,5 @@
 import re
-def line(base_text, base_stop_word):
+def line(base_text, base_stop_word):#O(n*m) O(n)
     clear_text = []
     base_text_list = base_text.split()
     #for word in re.findall(r'\w+', base_text): подушка безопасности
@@ -7,7 +7,7 @@ def line(base_text, base_stop_word):
         if word not in base_stop_word:
             clear_text.append(word)
     return " ".join(clear_text)
-def binary(base_text, base_stop_word):
+def binary(base_text, base_stop_word):#O(mlogm + nlogm) O(n+m)
     clear_text = []
     base_stop_word_sorted = sorted(base_stop_word)
 
@@ -28,7 +28,7 @@ def binary(base_text, base_stop_word):
         if not if_stop_word(word):
             clear_text.append(word)
     return " ".join(clear_text)
-def hash_set(base_text, base_stop_word):
+def hash_set(base_text, base_stop_word):#O(n+m)
     clear_text = []
     set_stop_word = set(base_stop_word)
     for word in base_text.split():
