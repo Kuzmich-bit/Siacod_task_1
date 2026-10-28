@@ -33,3 +33,18 @@ class ProviderThreeAdapter(IPaymentProvider):
     def __init__(self, api: PollingProvider, max_attemps: int = 5) -> None:
         self.api = api
         self.max_attemps = max_attemps
+
+    def pay(self, amount_rubles: float, account_id: str) -> bool:
+        operation_id = self.api.transaction(account_id, amount_rubles)
+
+        for _ in range(self.max_attemps):
+            status = self.api.check_status(operation_id)
+
+            if status == "COMPLETED":
+                return True
+            elif status in ("DECLINED", "UNKNOWN"):
+                return False
+
+        raise TimeoutError(
+            f"Провайдер не ответил за {self.max_attemps} попыток"
+        )
