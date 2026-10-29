@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/2_task/adapters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/2_task/benchmark.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/2_task/interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/2_task/providers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/2_task/shop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/2_task/test.py" afterDir="false" />
+    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="код для магазина добавлен">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2_task/benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/3_task/binary_heap.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +52,8 @@
     &quot;Python.generator_text.executor&quot;: &quot;Run&quot;,
     &quot;Python.plot.executor&quot;: &quot;Run&quot;,
     &quot;Python.plot_by.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_files.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -67,8 +64,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/1_task" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/1_task" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -174,7 +171,71 @@
       <option name="project" value="LOCAL" />
       <updated>1790771875262</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Создал три провайдера для таск2">
+      <option name="closed" value="true" />
+      <created>1791043911734</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1791043911734</updated>
+    </task>
+    <task id="LOCAL-00013" summary="добавил метод pay в interface">
+      <option name="closed" value="true" />
+      <created>1793107289693</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1793107289693</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Создал классы для трёх разных адаптеров">
+      <option name="closed" value="true" />
+      <created>1793108662439</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1793108662439</updated>
+    </task>
+    <task id="LOCAL-00015" summary="рабочий первый банк и тесты">
+      <option name="closed" value="true" />
+      <created>1793109844466</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1793109844466</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Добавил оплату второго банка и тесты теперь его проверяют">
+      <option name="closed" value="true" />
+      <created>1793193883204</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1793193883204</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Добавил оплату третьего банка и тесты теперь его проверяют тоже">
+      <option name="closed" value="true" />
+      <created>1793200746633</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1793200746633</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Тесты добавил для всех">
+      <option name="closed" value="true" />
+      <created>1793261306561</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1793261306561</updated>
+    </task>
+    <task id="LOCAL-00019" summary="код для магазина добавлен">
+      <option name="closed" value="true" />
+      <created>1793262289954</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1793262289954</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +249,14 @@
     <MESSAGE value="Добавил тесты на производительность" />
     <MESSAGE value="." />
     <MESSAGE value="По папкам" />
-    <option name="LAST_COMMIT_MESSAGE" value="По папкам" />
+    <MESSAGE value="Создал три провайдера для таск2" />
+    <MESSAGE value="добавил метод pay в interface" />
+    <MESSAGE value="Создал классы для трёх разных адаптеров" />
+    <MESSAGE value="рабочий первый банк и тесты" />
+    <MESSAGE value="Добавил оплату второго банка и тесты теперь его проверяют" />
+    <MESSAGE value="Добавил оплату третьего банка и тесты теперь его проверяют тоже" />
+    <MESSAGE value="Тесты добавил для всех" />
+    <MESSAGE value="код для магазина добавлен" />
+    <option name="LAST_COMMIT_MESSAGE" value="код для магазина добавлен" />
   </component>
 </project>
