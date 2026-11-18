@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="№">
-      <change afterPath="$PROJECT_DIR$/src/3_task/ReusingBuffersDuringRendering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/3_task/benchmark.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/3_task/test.py" afterDir="false" />
+    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="для третьего task бинарная куча свой класс готова">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2_task/shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/2_task/shop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/3_task/binary_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/3_task/binary_heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3_task/ReusingBuffersDuringRendering.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/3_task/ReusingBuffersDuringRendering.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793352463406</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="для третьего task бинарная куча свой класс готова">
+      <option name="closed" value="true" />
+      <created>1795004048906</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1795004048906</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -282,6 +286,7 @@
     <MESSAGE value="код для магазина добавлен" />
     <MESSAGE value="№3 создал класс BinaryHeap" />
     <MESSAGE value="№3 написал основные методы push peek pop replace_top" />
-    <option name="LAST_COMMIT_MESSAGE" value="№3 написал основные методы push peek pop replace_top" />
+    <MESSAGE value="для третьего task бинарная куча свой класс готова" />
+    <option name="LAST_COMMIT_MESSAGE" value="для третьего task бинарная куча свой класс готова" />
   </component>
 </project>

@@ -1,0 +1,37 @@
+import json
+from binary_heap import BinaryHeap
+
+def load_json(path):
+    intervals = []
+    with open(path, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            obj = json.loads(line)
+            intervals.append((
+                int(obj['start']),
+                int(obj['end']),
+                obj['id']
+            ))
+    return intervals
+
+def solve(intervals):
+
+    heap = BinaryHeap()
+    next_buffer = 1
+    assignments = {}
+    for start, end, res_id in intervals:
+        if heap.size() > 0 and heap.peek()[0] <= start:
+            old_end, buf_num = heap.pop()
+            assignments[res_id] = buf_num
+        else:
+            buf_num = next_buffer
+            next_buffer += 1
+
+            heap.push((end, buf_num))
+            assignments[res_id] = buf_num
+    total_buffers = next_buffer - 1
+    result = [(res_id, assignments[res_id]) for start, end, res_id in intervals]
+    return result, total_buffers
+
