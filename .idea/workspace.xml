@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="код для магазина добавлен">
+    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="№">
+      <change afterPath="$PROJECT_DIR$/src/3_task/ReusingBuffersDuringRendering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/3_task/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/3_task/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2_task/benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/3_task/binary_heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2_task/shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/2_task/shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3_task/binary_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/3_task/binary_heap.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +51,14 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.Algoritms.executor&quot;: &quot;Run&quot;,
+    &quot;Python.adapters.executor&quot;: &quot;Run&quot;,
     &quot;Python.benchmark.executor&quot;: &quot;Run&quot;,
     &quot;Python.binary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.binary_heap.executor&quot;: &quot;Run&quot;,
     &quot;Python.generator_text.executor&quot;: &quot;Run&quot;,
     &quot;Python.plot.executor&quot;: &quot;Run&quot;,
     &quot;Python.plot_by.executor&quot;: &quot;Run&quot;,
+    &quot;Python.providers.executor&quot;: &quot;Run&quot;,
     &quot;Python.shop.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_files.executor&quot;: &quot;Run&quot;,
@@ -235,7 +242,23 @@
       <option name="project" value="LOCAL" />
       <updated>1793262289954</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="№3 создал класс BinaryHeap">
+      <option name="closed" value="true" />
+      <created>1793278644408</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1793278644408</updated>
+    </task>
+    <task id="LOCAL-00021" summary="№3 написал основные методы push peek pop replace_top">
+      <option name="closed" value="true" />
+      <created>1793352463406</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1793352463406</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -257,6 +280,8 @@
     <MESSAGE value="Добавил оплату третьего банка и тесты теперь его проверяют тоже" />
     <MESSAGE value="Тесты добавил для всех" />
     <MESSAGE value="код для магазина добавлен" />
-    <option name="LAST_COMMIT_MESSAGE" value="код для магазина добавлен" />
+    <MESSAGE value="№3 создал класс BinaryHeap" />
+    <MESSAGE value="№3 написал основные методы push peek pop replace_top" />
+    <option name="LAST_COMMIT_MESSAGE" value="№3 написал основные методы push peek pop replace_top" />
   </component>
 </project>

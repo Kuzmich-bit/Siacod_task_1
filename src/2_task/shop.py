@@ -12,6 +12,7 @@ class Shop:
             print('Оплачено')
         else:
             print('Отказано')
+
 def main():
     shop1 = Shop(ProviderOneAdapter(LegacyProvider()))
     shop2 = Shop(ProviderTwoAdapter(AsyncProvider()))
@@ -20,7 +21,6 @@ def main():
     shop1.buy(150.50, "baskov")
     shop2.buy(1200.0, 'kuzmich')
     shop3.buy(500.0, "polanski")
-
     shop1.buy(0, "baskov")
 
 if __name__ == "__main__":
