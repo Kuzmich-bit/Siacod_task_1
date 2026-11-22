@@ -67,6 +67,7 @@ class BinaryHeap:
         self.data = list(items)
         for i in range(len(self.data) // 2 - 1, -1, -1):
             self._sift_down(i)
+            
     def peek(self):
         if not self.data:
             raise IndexError("heap is empty")

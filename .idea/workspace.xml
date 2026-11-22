@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="для третьего task бинарная куча свой класс готова">
+    <list default="true" id="26297240-3cca-441d-a089-69de89340366" name="Changes" comment="Рапределение буферов">
+      <change afterPath="$PROJECT_DIR$/src/3_task/input.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/3_task/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/3_task/ReusingBuffersDuringRendering.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/3_task/ReusingBuffersDuringRendering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3_task/benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/3_task/benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3_task/binary_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/3_task/binary_heap.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,28 +47,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Algoritms.executor&quot;: &quot;Run&quot;,
-    &quot;Python.adapters.executor&quot;: &quot;Run&quot;,
-    &quot;Python.benchmark.executor&quot;: &quot;Run&quot;,
-    &quot;Python.binary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.binary_heap.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generator_text.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plot_by.executor&quot;: &quot;Run&quot;,
-    &quot;Python.providers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.shop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_files.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Algoritms.executor": "Run",
+    "Python.adapters.executor": "Run",
+    "Python.benchmark.executor": "Run",
+    "Python.binary.executor": "Run",
+    "Python.binary_heap.executor": "Run",
+    "Python.generator_text.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.plot.executor": "Run",
+    "Python.plot_by.executor": "Run",
+    "Python.providers.executor": "Run",
+    "Python.shop.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_files.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -262,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795004048906</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Рапределение буферов">
+      <option name="closed" value="true" />
+      <created>1795005546843</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1795005546843</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -287,6 +300,7 @@
     <MESSAGE value="№3 создал класс BinaryHeap" />
     <MESSAGE value="№3 написал основные методы push peek pop replace_top" />
     <MESSAGE value="для третьего task бинарная куча свой класс готова" />
-    <option name="LAST_COMMIT_MESSAGE" value="для третьего task бинарная куча свой класс готова" />
+    <MESSAGE value="Рапределение буферов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рапределение буферов" />
   </component>
 </project>
