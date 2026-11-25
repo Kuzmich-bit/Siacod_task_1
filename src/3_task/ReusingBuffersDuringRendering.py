@@ -1,6 +1,4 @@
 import json
-from multiprocessing import heap
-
 from binary_heap import BinaryHeap
 
 def load_json(path):
@@ -24,7 +22,7 @@ def solve(intervals):
     next_buffer = 1
     assignments = {}
 
-    for start, end, res_id in intervals:
+    for start, end, res_id in sorted_intervals:
         if heap.size() > 0 and heap.peek()[0] <= start:
             old_end, buf_num = heap.pop()
             heap.push((end, buf_num))
@@ -37,7 +35,7 @@ def solve(intervals):
             assignments[res_id] = buf_num
 
     total_buffers = next_buffer - 1
-    result = [(res_id, assignments[res_id]) for start, end, res_id in intervals]
+    result = [(res_id, assignments[res_id]) for start, end, res_id in sorted_intervals]
     return result, total_buffers
 def solve_etalon(intervals):
     sorted_intervals = sorted(intervals, key=lambda x: x[0])
@@ -45,7 +43,7 @@ def solve_etalon(intervals):
     next_buffer = 1
     assignments = {}
 
-    for start, end, res_id in intervals:
+    for start, end, res_id in sorted_intervals:
         best_idx = -1
         best_end = 10**10
         best_num = 10**10
