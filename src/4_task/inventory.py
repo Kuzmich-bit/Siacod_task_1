@@ -1,0 +1,1 @@
+from hashtable import HashTable, string_hash, string_eq

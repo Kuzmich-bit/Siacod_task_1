@@ -24,8 +24,7 @@ def solve(intervals):
 
     for start, end, res_id in sorted_intervals:
         if heap.size() > 0 and heap.peek()[0] <= start:
-            old_end, buf_num = heap.pop()
-            heap.push((end, buf_num))
+            old_end, buf_num = heap.replace_top((end, buf_num))
             assignments[res_id] = buf_num
         else:
             buf_num = next_buffer
